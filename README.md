@@ -1,4 +1,4 @@
-Java Spring backend for a chat app.
+Spring backend for a chat app.
 
 - Kafka for managing new messages
 - Cassandra for storing messages
