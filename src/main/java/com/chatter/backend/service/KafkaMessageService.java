@@ -23,8 +23,6 @@ public class KafkaMessageService {
 
     public void sendMessage(MessageWithAccountDTO message) {
         String key = message.getKey().getChatId().toString();
-        System.out.println("KEY");
-        System.out.println(key);
         kafkaTemplate.send(chatMessagesTopic, key, message);
     }
 
