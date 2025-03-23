@@ -2,7 +2,7 @@ Java Spring backend for a chat app.
 
 - Kafka for managing new messages
 - Cassandra for storing messages
-- Postgres for storing acounts, chats, and chat members
+- Postgres for storing accounts, chats, and chat members
 - WebSockets for sending new messages to active chat members
 
 
